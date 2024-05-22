@@ -17,4 +17,4 @@ console.log (infoClientesMatriz[1]) // Linha 1 inteira
 //estrutura para vetor: pode armazenar diferentes
 //tipos de dados, mas preferivel botar dados do msm tipo
 
-let infoClientesVetor = ["Kathe", "Fulano1", "Fulano2"]  
+let infoClientesVetor = ["KatheIsabelle", "Fulano1", "Fulano2"]  
