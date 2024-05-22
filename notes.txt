@@ -100,7 +100,7 @@ nomeUsuarios.pop [remove ultimo elemento do array = nome3]
 
 ____________________________________________________
 PROPRIEDADES .  [COR AZUL]
-serve para array e matrizes, ações que podem ser feitas.
-
+serve para array e matrizes, caracteristicas da estrutura
+sendo utilizada.
 
 nomeDaEstrutura.length  [quantas posições array possui]
