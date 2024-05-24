@@ -1,0 +1,32 @@
+let count = 200;
+
+// + 1 || - 1
+console.log("---- Testando Incremento e Decremento ----")
+count++;
+console.log("incrementado " + count + "\n");
+
+
+count--;
+console.log("decrementado " + count + "\n");
+
+
+// Op. de Atribuição
+console.log("---- Testando Atribuições ----")
+let preco = 200;
+
+console.log ("Preco Inicial " + preco + "\n");
+
+preco += 200;
+console.log(" +200 = " + preco);
+
+preco -= 200;
+console.log(" -200 = " + preco);
+
+preco *= 5;
+console.log(" x5 = " + preco);
+
+preco /= 4;
+console.log(" /4 = " + preco);
+
+preco %= 4;
+console.log(" modulo4 = " + preco);
