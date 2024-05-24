@@ -30,3 +30,5 @@ console.log(" /4 = " + preco);
 
 preco %= 4;
 console.log(" modulo4 = " + preco);
+
+

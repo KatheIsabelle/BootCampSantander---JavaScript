@@ -1,0 +1,9 @@
+// OR : PELO MENOS UMA CONDIÇÃO V DÁ V
+
+let tempo = "Sol";
+let item = "guardaChuva";
+let PodeSair = (tempo !== "chuva") || (item === "guardaChuva");
+
+console.log("Player Pode Sair " + PodeSair);
+
+

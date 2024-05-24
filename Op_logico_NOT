@@ -1,0 +1,7 @@
+// NOT - inverte
+
+let tempo = "chuva";
+let resultado = tempo !== "chuva"
+
+console.log(resultado)
+console.log(!resultado) //INVERTE RESULT 
