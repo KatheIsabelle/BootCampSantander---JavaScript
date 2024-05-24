@@ -1,0 +1,157 @@
+# JavaScript: ESTUDANDO LÓGICA DE PROGRAMAÇÃO ____________________________________________________
+
+>>> Estilo de declaracao de nome de variavel para JavaScript´
+é camelCase, 1a letra minuscula 2a letra maiuscula.
+
+>> JS é linguagem não tipada, não é necessario declarar
+o tipo da variavel antes de declarar.
+
+
+let + NomeDaVariavel [declaração de variável, alterável ao longo do codigo]
+
+const [declaracao de constante, inalterável ao longo do código]
+
+console.log [print terminal]
+
+// [comentário]
+
++ [concatenação]
+
+" " [texto]
+
+' ' [caracter]
+
+
+____________________________________________________
+TIPAGEM DE VARIÁVEIS:
+
+1. Strings [var armazena texto]
+2. Numbers [var armaeza numero]
+3. Booleans [var booleana - true or false]
+
+
+
+____________________________________________________
+VETORES []
+>> Pode declarar diferentes tipos de VARIÁVEIS,
+dados de tipos misturados
+
+>>Declaracao de vetor, não precisa declarar tipo de vetor:
+exemplo: let nomeUsuarios = ["nome1", "nome2", "nome3"]
+
+>>Print valor especifico dentro do vetor:
+console.log(nomeUsuarios[1]) //printa nome2
+
+>> Vetores também possuem métodos ou funções
+.pop() [remove ultimo elemento do vetor]
+.shift () [remove primeiro elemento do vetor]
+
+
+____________________________________________________
+MATRIZES EM JS, matrizes podem ser 
+declaradas como conjuntos de arrays que vão formando as 
+linhas e colunas e podem armazenar diferentes tipos
+de dados no mesmo array
+
+Matriz 2 x 3
+
+let todosUsuarios = [ 
+    ["maria", "20 anos", "SC"],
+    ["Joao", "23 anos", "SP"],
+]
+
+console.log(todosUsuarios[0]) //imprime a linha
+    ["maria", "20 anos", "SC"]
+
+console.log(todosUsuarios[0][0]) //imprime a linha 0 e conteudo
+que está no indice 0 do array:
+    Maria
+ 
+
+ EXEMPLO: Matriz 3 x 3 
+
+ let timePokemon = [ 
+  ["Pika", 20, "SC"],
+  ["Char", 23, "SP"],
+  ["Bulba", 25, "RJ"]
+]
+
+console.log(timePokemon[0][1])
+console.log(timePokemon[0])
+console.log(timePokemon[2])
+console.log(timePokemon[2][1])
+
+---------terminal---------
+20
+(3) ["Pika", 20, "SC"]
+(3) ["Bulba", 25, "RJ"]
+25
+
+____________________________________________________
+MÉTODOS .  [COR ROXA]
+serve para array e matrizes, ações que podem ser feitas.
+
+nome array ou matriz . 
+[aparecem funções//metodos que podem ser feitos com a variavel. 
+Executam ações]
+
+exemplo: let nomeUsuarios = ["nome1", "nome2", "nome3"]
+nomeUsuarios.pop [remove ultimo elemento do array = nome3]
+
+____________________________________________________
+PROPRIEDADES .  [COR AZUL]
+serve para array e matrizes, caracteristicas da estrutura
+sendo utilizada.
+
+nomeDaEstrutura.length  [quantas posições array possui]
+
+
+
+____________________________________________________
+OPERADORES & EXPRESSÕES 
+
+### Operadores Aritméticos:
+
+|OP | Descrição                 | Exemplo |
+| + | Adição                    | let result = 5 + 3; |
+| - | Subtração                 | let result = 8 - 2; |
+| * | Multiplicação             | let result = 4 * 6; |
+| / | Divisão                   | let result = 10 / 2; |
+| % | Módulo (resto da divisão) | let result = 10 % 3; |
+
+----------------------------------------
+### Operadores Relacionais:
+
+| OP | Descrição            | Exemplo |
+| == | Igual a              | let isEqual = (x == y); |
+| != | Diferente de         | let isNotEqual = (x != y); |
+| >  | Maior que            | let isGreater = (x > y); |
+| <  | Menor que            | let isLess = (x < y); |
+| >= | Maior ou igual a     | let isGreaterOrEqual = (x >= y); |
+| <= | Menor ou igual a     | let isLessOrEqual = (x <= y); |
+
+----------------------------------------
+### Operadores Lógicos:
+
+| OP | Descrição            | Exemplo |
+| && | AND lógico           | if (condition1 && condition2) |
+| || | OR lógico            | if (condition1 || condition2) |
+| ! | NOT lógico            | if (!condition) |
+
+----------------------------------------
+### Operadores de Atribuição:
+
+| OP | Descrição                    | Exemplo |
+| =  | Atribuição                   | let x = 5; |
+| += | Adição e atribuição          | let num = 10; num += 2; |
+| -= | Subtração e atribuição       | let num = 10; num -= 3; |
+| *= | Multiplicação e atribuição   | let num = 5; num *= 4; |
+| /= | Divisão e atribuição         | let num = 10; num /= 2; |
+| %= | Módulo e atribuição          | let num = 10; num %= 3; |
+
+----------------------------------------
+### Operadores de Incremento e Decremento:
+
+| Operador | Descrição          | Exemplo |
+| ++ | Incremento               | let counter = 0; counter++; |
+| -- | Decremento               | let counter = 5; counter--; |
