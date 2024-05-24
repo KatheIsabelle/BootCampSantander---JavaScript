@@ -1,0 +1,32 @@
+let ValorA = 20;
+let ValorB = 20;
+
+console.log (" ---- Testando Operadores Relacionais ----");
+console.log ("ValorA " + ValorA + "\nValorB " + ValorB + "\n\nRESULTADO:")
+// Usando condicionais + Relação entre valoes 
+
+// CASO IGUAL OU DIF
+if (ValorA == ValorB){
+    console.log ("Valores são iguais");
+}
+else if (ValorA != ValorB){
+    console.log ("Valores são diferentes");
+}
+
+//CASO MAIOR OU MENOR
+if (ValorA > ValorB){
+    console.log(" ValorA é maior que ValorB");
+}
+else if (ValorA < ValorB){
+    console.log("ValorA é menor que ValorB");
+}
+
+// CASO MAIOR OU IGUAL 
+if (ValorA >= ValorB){
+    console.log("ValorA é maior ou igual que ValorB");    
+}
+
+// CASO MENOR OU IGUAL
+if (ValorA <= ValorB){ 
+    console.log("ValorA é menor ou igual que ValorB");    
+}
