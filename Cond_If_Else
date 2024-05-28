@@ -1,0 +1,12 @@
+let possuiItem = false;
+let itemComprado = "";
+
+if (possuiItem){
+    itemComprado = "nada";
+    console.log("Tem item, comprou " + itemComprado);
+}
+else{
+    itemComprado = "chocolate";
+    console.log("não tem item, comprou " + itemComprado);
+
+}

@@ -1,5 +1,5 @@
 //estrutura para matriz, indicado para dados de tipos variados
-
+//usando array
 
 // MATRIZ 5x4
 let infoClientesMatriz = [
@@ -11,6 +11,7 @@ let infoClientesMatriz = [
     ["Fulano4", 35, "Rua 4", "Brazil"],
 
 ]
+
 
 console.log("Conteúdo Linha 0 | Coluna 0")
 console.log(infoClientesMatriz[0][0]) // Linha 0 Coluna 0

@@ -21,7 +21,9 @@ console.log [print terminal]
 
 ' ' [caracter]
 
+= [atribuição de valor, etc]
 
+=== [compara valor e formato]
 ____________________________________________________
 TIPAGEM DE VARIÁVEIS:
 

@@ -1,0 +1,17 @@
+let ovos = true;
+
+let itemComprado = "";  //arm valor vazio
+
+//ovo =true print
+if (ovos){
+    console.log("tem ovin");
+}
+
+//condicao ovo = true, compra macarrao
+if (ovos){
+    itemComprado = "macarrao";
+}
+
+//print item comprado
+console.log("item  comprado eh "+ itemComprado);
+

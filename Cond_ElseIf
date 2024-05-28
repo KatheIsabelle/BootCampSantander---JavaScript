@@ -1,0 +1,14 @@
+let nivelFome = 10
+
+if (nivelFome === 1){
+    console.log("Seu nivel de fome é " + nivelFome + " pouca fome");
+}
+else if(nivelFome === 2){
+    console.log("Seu nivel de fome é " + nivelFome + " fome media");
+    console.log(nivelFome)
+}
+//qualquer cond diferente de 1 ou 2, qualquer outro caso
+else{
+    console.log("Seu nivel de fome é " + nivelFome + " muita fome");
+    console.log(nivelFome)
+}
