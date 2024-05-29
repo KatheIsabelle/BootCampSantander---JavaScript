@@ -163,3 +163,90 @@ nomeDaEstrutura.length [quantas posições array possui]
 | --- | --- | --- |
 | ++ | Incremento | let counter = 0; counter++; |
 | -- | Decremento | let counter = 5; counter--; |
+
+
+# JavaScript [PART 2]
+
+# Estruturas condicionais IF ELSE | ELSE IF (ENCADEADO)
+Var booleana ou expressao que retorna bool 
+---------------------------------------------
+if (condição){
+    faz tal coisa 
+}
+
+---------------------------------------------
+If (condição){
+
+    faz tal coisa
+}
+else {
+    faz outra coisa
+}
+---------------------------------------------
+>>>>>>>>>>>>>>>>>>>> if encadeado
+If (condição){
+
+    faz tal coisa
+}
+else if {
+    faz outra coisa
+}
+else if {
+    faz outra coisa
+}
+else{
+
+}
+
+_______________________________________________________________
+# SwitchCase [Estrutura de Decisão]
+Muitas casos para testar é melhor usar o SWCASE, 
+também pode ser feito com o IF, Else If, Else. 
+
+palavras chave > switch case break, default.
+Pode-se ter mais de um case no mesmo bloco, basta colocar
+um case em cima do outro. O break auxilia em parar a execução 
+ao encontrar variavel igual ao caso testado. 
+---------------------------------------------
+switch (expression) {
+  case caseExpression1:
+    statements
+  case caseExpression2:
+    statements
+    break;
+  case caseExpressionN:
+    statements
+    break;
+  default:
+    statements
+}
+
+_______________________________________________________________
+Laços de Repetição : mais utilizado
+
+1. for : repetir ação várias vezes. Verificação contínua.
+variavel i usada como iterador
+    for (condicao inicial, cond parada, incremento){
+            ação a ser feita repetidamente;
+    }
+
+    for (i=0;i<valor parada; i++){
+        console.log(i);                 //conta até valor de parada 
+    }
+
+2. While : alternativa do for. Até uma determinada condição ser satisfeita
+>>> condição é mais direta, exemplo de condição count < 3  ou i < 3 [interador]
+contador ou interador deve ser incrementado dentro do while. 
+
+while (condição){
+    console.log("mensagem");
+    condição++ //deve incrementar o contador
+}
+
+3. Do While : faz algo até certa condição de parada. 
+
+do {
+    ação ();
+    itera contador ou i; 
+}
+while (contador ou iterador) //regra para parar
