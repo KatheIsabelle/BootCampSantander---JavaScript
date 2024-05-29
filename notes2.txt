@@ -55,7 +55,7 @@ switch (expression) {
 }
 
 _______________________________________________________________
-Laços de Repetição
+Laços de Repetição : mais utilizado
 
 1. for : repetir ação várias vezes. Verificação contínua.
 variavel i usada como iterador
@@ -77,9 +77,26 @@ while (condição){
 }
 
 3. Do While : faz algo até certa condição de parada. 
-
+Executa pelo menos uma vez por conta de fazer algo primeiro e verificar depois.
 do {
     ação ();
-    itera contador ou i;
+    itera contador ou i; 
 }
-while (contador ou iterador)
+while (contador ou iterador) //regra para parar
+
+_______________________________________________________________
+Funções em JavaScript
+
+Funções realizam uma ação, usa parametros ou não e pode ter saída
+ou não.
+
+>> nome de funcao : letras e padrao camelCase
+>> nomeFuncao = verboDaAcao
+>> cada funcao 1 ação
+
+
+nomeFuncao //chamando funcao para executá-la
+
+function nomeFuncao(parametros){
+        acao a ser feita();
+}
